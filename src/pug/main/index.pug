@@ -1,0 +1,23 @@
+doctype html
+
+html(lang="ja")
+
+	- var title = "ブラウザのタブに表示されるタイトルです";
+	- var myScripts=["/public/js/index.js"];
+	- var myStyles=["/public/css/index.css"];
+	include ../templete/_head.pug
+
+
+	header.jumbotron
+		div.container
+			div.row 
+				h1 Hello!!
+
+	body
+		ul#messages
+		form#chatbox
+			textarea
+			input(type="submit" value="送信")
+
+	include ../templete/_footer.pug
+

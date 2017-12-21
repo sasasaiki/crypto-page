@@ -1,0 +1,17 @@
+//rgbaの警告がきになるなら以下の行の「*」だけ削除する
+//*sass-lint:disable no-color-literals
+$color-header: #99c000
+$white: #fff
+
+=text-shadow-white($opacity: .4)
+  text-shadow: 0 1px 0 rgba($white, $opacity)
+
+
+.jumbotron
+  background-color: $color-header
+
+
+.test-text
+  +text-shadow-white(1)
+
+  background-color: $color-header

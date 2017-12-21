@@ -1,0 +1,41 @@
+{
+  "name": "web-templete-go-ts-pug-sass",
+  "version": "1.0.0",
+  "description": "## Getting Started",
+  "main": "main.go",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "",
+  "devDependencies": {
+    "graceful-fs": "^4.1.11",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-typescript": "^3.1.5",
+    "minimatch": "^3.0.3",
+    "pug": "^2.0.0-beta11",
+    "sass": "^1.0.0-beta.3",
+    "sass-lint": "^1.10.2",
+    "ts-loader": "^3.1.1",
+    "typescript": "^2.1.6",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^2.1.0-beta.22",
+    "webpack-stream": "^4.0.0"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.2.16"
+  }
+}
