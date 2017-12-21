@@ -3,10 +3,11 @@ package main
 import (
 	"net/http"
 
-	"github.com/sasasaiki/eth-page/src/go/router"
-	"log"
 	"bytes"
+	"log"
+
 	"github.com/gorilla/rpc/v2/json2"
+	"github.com/sasasaiki/crypto-page/src/go/router"
 )
 
 func main() {
@@ -32,10 +33,9 @@ func main() {
 
 	log.Println("call")
 	if err != nil {
-		log.Fatalf("call %v",err)
+		log.Fatalf("call %v", err)
 	}
-	log.Printf("result %#v",ret)
-
+	log.Printf("result %#v", ret)
 
 	http.ListenAndServe(":8080", r)
 }

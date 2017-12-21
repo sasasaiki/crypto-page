@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/sasasaiki/eth-page/src/go/handler"
+	"github.com/sasasaiki/crypto-page/src/go/handler"
 )
 
 //NewProdRoutingHandlers 本番用ハンドラーを作成

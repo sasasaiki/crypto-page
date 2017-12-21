@@ -7,7 +7,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/sasasaiki/eth-page/src/go/usecase/sample"
+	"github.com/sasasaiki/crypto-page/src/go/usecase/sample"
 )
 
 //Add POSTのサンプル
