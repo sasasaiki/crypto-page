@@ -1,8 +1,13 @@
-hash: 1ecb4dff614a34dba3d8e10ee1aa7083dd538ca393783dffaebf7034f679d9c6
-updated: 2017-11-26T19:08:17.788956566+09:00
+hash: d4c4b65bca5b9d3cd5e2dbd23f54825b3765df7c035be5578521b1e1681239d5
+updated: 2017-12-21T14:40:18.623686133+09:00
 imports:
 - name: github.com/gorilla/context
   version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
 - name: github.com/gorilla/mux
   version: 7f08801859139f86dfafd1c296e2cba9a80d292e
+- name: github.com/gorilla/rpc
+  version: 22c016f3df3febe0c1f6727598b6389507e03a18
+  subpackages:
+  - v2
+  - v2/json2
 testImports: []
