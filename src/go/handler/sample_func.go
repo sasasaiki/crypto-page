@@ -2,12 +2,12 @@ package handler
 
 import (
 	"encoding/json"
+	"hoge/src/go/usecase/sample"
 	"io"
 	"log"
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/sasasaiki/crypto-page/src/go/usecase/sample"
 )
 
 //Add POSTのサンプル
